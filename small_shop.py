@@ -3,6 +3,8 @@ city = input()
 quantity = float(input())
 price = 0
 
+exchange = ""
+
 if city == "Sofia":
     if product == "coffee":
         price = quantity * 0.50
